@@ -1,0 +1,204 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  /* Profile container */
+  .profile {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Profile picture styles */
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Bio container */
+  .bio {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Edit button container */
+  .edit {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Profile section styles */
+  .profile-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Form label styles */
+  .form-label {
+    font-weight: bold;
+  }
+  
+  /* Bio form styles */
+  .bio-form {
+    margin-bottom: 20px;
+  }
+  
+  /* Bio input styles */
+  .bio-input {
+    padding: 8px;
+    margin-top: 5px;
+    width: 300px;
+  }
+  
+  /* File input styles */
+  .file-input {
+    margin-top: 10px;
+  }
+  
+  /* Edit profile button styles */
+  .edit-profile-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Main section styles */
+  main {
+    padding: 20px;
+  }
+  
+  /* Request section styles */
+  .request-section {
+    margin-top: 20px;
+  }
+  
+  /* Request box styles */
+  .req-box {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Request content styles */
+  .req-content p {
+    margin-bottom: 5px;
+  }
+  
+  /* Response section styles */
+  .resp-section {
+    margin-top: 10px;
+  }
+  
+  /* Response form styles */
+  .resp-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Response input styles */
+  .response-input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  /* Response button styles */
+  .response-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Response container styles */
+  .responses {
+    margin-top: 10px;
+  }
+  
+  /* Response styles */
+  .response {
+    margin-top: 10px;
+  }
+  
+  /* Timestamp styles */
+  .timestamp {
+    font-size: 0.8em;
+    color: #777;
+    text-align: right;
+  }
+  /* Style for title */
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the main heading */
+h1 {
+  text-align: center;
+}
+
+/* Style for the schedule container */
+.schedual {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style for each section in the schedule */
+.schedual-section {
+  margin: 20px;
+}
+
+/* Style for each schedule box */
+.schedual-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Style for schedule content */
+.schedual-content {
+  font-size: 16px;
+}
+
+/* Style for date */
+.schedual-content p:first-child {
+  font-weight: bold;
+}
+
+/* Style for name */
+.schedual-content p:nth-child(2) {
+  margin-top: 5px;
+}
+
+/* Style for booked status */
+.schedual-content p:nth-child(3) {
+  margin-top: 5px;
+  color: #007bff; /* Change color as needed */
+}

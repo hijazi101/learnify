@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  .my-logout-button {
+    text-align: right;
+    padding: 10px 20px;
+  }
+  
+  .my-logout-button form {
+    display: inline-block;
+  }
+  
+  .my-logout-button input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  main {
+    padding: 40px; /* Increased padding for a thicker appearance */
+    background-color: #fff; /* Added background color for contrast */
+    margin: 20px auto; /* Center the main content */
+    max-width: 800px; /* Set a max width for the main content */
+    border: 1px solid #ccc; /* Added border for definition */
+    border-radius: 10px; /* Added border-radius for smoother edges */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+  }
+  
+  .request-section {
+    margin-bottom: 20px;
+  }
+  
+  .request-section form {
+    display: flex;
+    align-items: center;
+  }
+  
+  #request-box {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    width: 100%;
+  }
+  
+  #ask-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .req-box {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .req-content p {
+    margin-bottom: 5px;
+  }
+  
+  .resp-section {
+    margin-top: 10px;
+  }
+  
+  .resp-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .resp-form input[type="text"] {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .resp-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .responses .response {
+    margin-top: 10px;
+  }
+  
+  .timestamp {
+    font-size: 0.8em;
+    color: #777;
+    text-align: right;
+  }
+  #search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#search-input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+#search-button {
+    padding: 10px;
+    background-color: #333;
+    border: 1px solid #007bff;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#search-button i {
+    font-size: 18px;
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}
